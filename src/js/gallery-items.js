@@ -1,16 +1,16 @@
 export const galleryItems = [
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825__340.jpg',
+      'https://images.pexels.com/photos/12367877/pexels-photo-12367877.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825_1280.jpg',
+      'https://images.pexels.com/photos/12367877/pexels-photo-12367877.jpeg',
     description: 'Hokkaido Flower',
   },
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg',
+      'https://images.pexels.com/photos/11213475/pexels-photo-11213475.jpeg',
     original:
-      'https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg',
+      'https://images.pexels.com/photos/11213475/pexels-photo-11213475.jpeg',
     description: 'Container Haulage Freight',
   },
   {
@@ -63,3 +63,9 @@ export const galleryItems = [
     description: 'Lighthouse Coast Sea',
   },
 ];
+
+// https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825__340.jpg
+// https://cdn.pixabay.com/photo/2019/05/14/16/43/himilayan-blue-poppy-4202825_1280.jpg
+
+// https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg
+// https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg
