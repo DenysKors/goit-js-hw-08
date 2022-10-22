@@ -13,12 +13,12 @@ const userLocalData = {};
 function onWndwLoad() { 
     if (localStorage.getItem('feedback-form-state') !== null) { 
         const userSavedData = JSON.parse(localStorage.getItem('feedback-form-state'));
-        if (userSavedData.email) { 
+        if (userSavedData.email) {
             inputRef.value = userSavedData.email;
-        }
-        if (userSavedData.message) { 
+            }
+        if (userSavedData.message) {
             textAreaRef.value = userSavedData.message;
-        }     
+        }
     }
 }
 
@@ -34,7 +34,11 @@ function onFormInput(event) {
 
 function onFormSubit(event) { 
     event.preventDefault();
+    if (event.currentTarget.email.value === '' || event.currentTarget.message.value === '') {
+        return alert('Пожалуйста заполните поля!')
+    }
     console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
     localStorage.removeItem('feedback-form-state');
     event.target.reset();
+    alert('Форма успешно отправлена!')
 }
