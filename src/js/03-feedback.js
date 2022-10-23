@@ -21,8 +21,8 @@ function onWndwLoad() {
 
 function onFormInput(event) {
     const userLocalData = {
-        email: `${refs.inputRef.value}`,
-        message: `${refs.textAreaRef.value}`,
+        email: refs.inputRef.value,
+        message: refs.textAreaRef.value,
     };
 
     if (event.target.name === 'email') {
