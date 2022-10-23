@@ -8,7 +8,9 @@ formRef.addEventListener('submit', onFormSubit);
 formRef.addEventListener('input', throttle(onFormInput, 500));
 window.addEventListener('load', onWndwLoad);
 
-const userLocalData = {};
+const userLocalData = {
+    
+};
 
 function onWndwLoad() { 
     if (localStorage.getItem('feedback-form-state') !== null) { 
