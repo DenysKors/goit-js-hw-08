@@ -20,7 +20,7 @@ function onWndwLoad() {
 }
 
 function onFormInput(event) {
-    userLocalData = {
+    const userLocalData = {
         email: `${refs.inputRef.value}`,
         message: `${refs.textAreaRef.value}`,
     };
